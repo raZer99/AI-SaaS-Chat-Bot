@@ -8,4 +8,4 @@ chatRoutes.post("/new", validate(chatCompletionValidator), verifyToken, generate
 chatRoutes.get("/all-chats", verifyToken, sendChatsToUser);
 chatRoutes.delete("/delete", verifyToken, deleteChats);
 export default chatRoutes;
-//# sourceMappingURL=chats-routes.js.map
+//# sourceMappingURL=chat-routes.js.map

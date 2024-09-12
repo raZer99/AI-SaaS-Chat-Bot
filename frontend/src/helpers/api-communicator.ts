@@ -8,7 +8,7 @@ export const loginUser = async (email: string, password: string) => {
   return data;
 };
 
-
+ 
 export const signupUser = async (
   name: string,
   email: string,
